@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>Area of Triangle, PHP</title>
+  <title>Area of parallelogram, PHP</title>
 </head>
 
 <body>
@@ -38,12 +38,12 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Area Of Triangle, PHP</span>
+        <span class="mdl-layout-title">Area Of parallelogram, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/area_of_trinagle.png" alt="Area of Triangle Image"/>
+        <img src="./images/parallelogram.png"/>
       </div>
   <div class="page-content-php">
     <div id="user-info">
@@ -52,12 +52,12 @@
       $heightlength = $_GET["height-length"];
 
       // process
-      $area = ($baselength * $heightlength) /2;
+      $area = $baselength * $heightlength
       // output
-      echo "If a Triangle has a base length of =" . $baselength . " cm and a height of =" . $heightlength . " cm:";
+      echo "If a parallelogram has a base length of =" . $baselength . " cm and a height of =" . $heightlength . " cm:";
       echo "<br />";
       echo "<br />";
-      echo "The area of the Triangle is " . $area . " cm².";
+      echo "The area of the parallelogram is " . $area . " cm².";
       ?>
     </div>
     <div class="page-content-answer">

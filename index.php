@@ -29,7 +29,7 @@
     type="image/png"
     sizes="16x16"
     href="./favicon-16x16.png" />
-  <title>Area of triangle in PHP</title>
+  <title>Area of parallelogram in PHP</title>
 </head>
 
 <body>
@@ -38,12 +38,12 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Area of triangle in PHP</span>
+        <span class="mdl-layout-title">Area of parallelogram in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/area_of_trinagle.png" alt="Area Of Triangle" />
+        <img src="./images/parallelogram.png" />
       </div>
       <br />
       <div class="page-content">Enter the length and width in cm.</div>
