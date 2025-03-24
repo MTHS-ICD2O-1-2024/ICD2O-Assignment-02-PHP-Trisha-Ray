@@ -52,7 +52,7 @@
       $heightlength = $_GET["height-length"];
 
       // process
-      $area = $baselength * $heightlength
+      $area = $baselength * $heightlength;
       // output
       echo "If a parallelogram has a base length of =" . $baselength . " cm and a height of =" . $heightlength . " cm:";
       echo "<br />";
